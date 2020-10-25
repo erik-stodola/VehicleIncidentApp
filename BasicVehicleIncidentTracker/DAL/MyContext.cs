@@ -11,5 +11,6 @@ namespace BasicVehicleIncidentTracker.DAL
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
         public DbSet<InvoiceItem> InvoiceItems { get; set; }
+        public DbSet<Incident> Incidents { get; set; }
     }
 }
